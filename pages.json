@@ -1,0 +1,51 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/index/index",
+			"style": {
+				"navigationBarTitleText": "前端知识库"
+			}
+		},
+		{
+			"path":"pages/vue/index",
+			"style":{
+				"navigationBarTitleText":"Vue知识"
+			}
+		},
+		{
+			"path":"pages/Uniapp/index",
+			"style":{
+				"navigationBarTitleText":"Uniapp知识"
+			}
+		},
+		{
+			"path":"pages/Es6/index",
+			"style":{
+				"navigationBarTitleText":"Es6知识"
+			}
+		},{
+			"path":"pages/Js/index",
+			"style":{
+				"navigationBarTitleText":"Js知识"
+			}
+		},
+		{
+			"path":"common/answer",
+			"style":{
+				"navigationBarTitleText":"题库"
+			}
+		},
+		{
+			"path":"common/manual",
+			"style":{
+				"navigationBarTitleText":"手册"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "前端知识库",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#000000"
+	}
+}
